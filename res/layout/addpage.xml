@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgr"
+    android:padding="30sp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".AddPage" >
+
+    <EditText
+        android:id="@+id/etAddWeight"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:textColor="@android:color/white" 
+        android:background="@android:color/background_light"
+        android:inputType="number">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bTakePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/takePhoto"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bUsePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/usePhoto"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/currentPhoto"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/ivFatWoman"
+        android:layout_width="130sp"
+        android:layout_height="200sp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/fatWoman"
+        android:src="@drawable/fatwoman" />
+
+    <TextView
+        android:id="@+id/tvKG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etAddWeight"
+        android:layout_alignBottom="@+id/etAddWeight"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="KG" 
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etAddWeight"
+        android:layout_alignLeft="@+id/etAddWeight"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvInsertCurrentWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="@string/insertW" />
+
+</RelativeLayout>

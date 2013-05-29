@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgr"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainPage" >
+    
+    <ImageView 
+    	android:id="@+id/ivTopBarMain"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/topbar"
+    	android:contentDescription="@string/topBar"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="0sp"    
+    />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" 
+        android:layout_marginTop="50sp"/>
+
+    <Button
+        android:id="@+id/bAddS"
+        android:layout_width="150sp"
+        android:layout_height="66sp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="@string/addS"
+         />
+
+    <Button
+        android:id="@+id/bShowPhoto"
+        android:layout_width="150sp"
+        android:layout_height="66sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bAddS"
+        android:layout_marginTop="18dp"
+        android:text="@string/photos" />
+
+    <Button
+        android:id="@+id/bShowStats"
+        android:layout_width="150sp"
+        android:layout_height="66sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bShowPhoto"
+        android:layout_marginTop="24dp"
+        android:text="@string/statistics" />
+
+</RelativeLayout>

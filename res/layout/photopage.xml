@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgr" >
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="22-05-2013" 
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/ivTodaysPhoto"
+        android:layout_width="130sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/fatWoman"
+        android:src="@drawable/fatwoman" />
+
+    <TextView
+        android:id="@+id/tvPhotoWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivTodaysPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="300 kg"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+    
+    <Button
+    	android:id="@+id/bPhotoLeftArrow"
+        android:layout_width="40sp"
+       	android:layout_height="40sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="27sp" 
+        android:background="@drawable/leftbutton"/>
+    
+    <Button
+    	android:id="@+id/bPhotoRightArrow"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="27sp"
+        android:background="@drawable/rightbutton"/>
+
+</RelativeLayout>

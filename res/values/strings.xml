@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Denk aan de lijn!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Denk aan de lijn!</string>
+    <string name="addS">Voeg gegevens toe</string>
+    <string name="photos">Bekijk foto\'s</string>
+    <string name="statistics">Bekijk statistieken</string>
+    <string name="insertW">Voer uw huidige gewicht in:</string>
+    <string name="takePhoto">Neem een nieuwe foto</string>
+    <string name="usePhoto">Gebruik een bestaande foto</string>
+    <string name="currentPhoto">Je huidige foto van vandaag:</string>
+    <string name="fatWoman">Mijn mooie lichaam</string>
+    <string name="startWeight">Uw startgewicht:</string>
+    <string name="statCurrentWeight">Uw huidige gewicht:</string>
+    <string name="totalWeightLoss">Totaal afgevallen:</string>
+    <string name="topBar">Menu balk</string>
+
+</resources>
