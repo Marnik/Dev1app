@@ -33,25 +33,28 @@ public final class R {
         public static final int topbar=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
+        public static final int action_settings=0x7f080015;
         public static final int bAddS=0x7f080002;
-        public static final int bPhotoLeftArrow=0x7f080010;
-        public static final int bPhotoRightArrow=0x7f080011;
+        public static final int bPhotoLeftArrow=0x7f080013;
+        public static final int bPhotoRightArrow=0x7f080014;
         public static final int bShowPhoto=0x7f080003;
         public static final int bShowStats=0x7f080004;
-        public static final int bTakePhoto=0x7f080007;
-        public static final int bUsePhoto=0x7f080008;
-        public static final int etAddWeight=0x7f080005;
-        public static final int ivFatWoman=0x7f080009;
-        public static final int ivTodaysPhoto=0x7f08000e;
+        public static final int bSubmitWeight=0x7f080007;
+        public static final int bTakePhoto=0x7f080009;
+        public static final int bUsePhoto=0x7f08000a;
+        public static final int etAddWeight=0x7f080006;
+        public static final int ivTodaysPhoto=0x7f080011;
         public static final int ivTopBarMain=0x7f080000;
-        public static final int linearLayout1=0x7f080006;
+        public static final int ivYourPhoto=0x7f08000c;
+        public static final int linearLayout1=0x7f080008;
+        public static final int linearLayout2=0x7f080005;
         public static final int textView1=0x7f080001;
-        public static final int textView2=0x7f08000b;
-        public static final int tvDate=0x7f08000d;
-        public static final int tvInsertCurrentWeight=0x7f08000c;
-        public static final int tvKG=0x7f08000a;
-        public static final int tvPhotoWeight=0x7f08000f;
+        public static final int tvCurrentPhoto=0x7f08000b;
+        public static final int tvCurrentWeight=0x7f08000f;
+        public static final int tvCurrentWeightNumber=0x7f08000e;
+        public static final int tvDate=0x7f080010;
+        public static final int tvInsertCurrentWeight=0x7f08000d;
+        public static final int tvPhotoWeight=0x7f080012;
     }
     public static final class layout {
         public static final int activity_main_page=0x7f030000;
@@ -66,9 +69,11 @@ public final class R {
         public static final int addS=0x7f050004;
         public static final int app_name=0x7f050000;
         public static final int currentPhoto=0x7f05000a;
+        public static final int currentWeight=0x7f050010;
         public static final int fatWoman=0x7f05000b;
         public static final int hello_world=0x7f050002;
         public static final int insertW=0x7f050007;
+        public static final int insertWeight=0x7f050011;
         public static final int photos=0x7f050005;
         public static final int startWeight=0x7f05000c;
         public static final int statCurrentWeight=0x7f05000d;

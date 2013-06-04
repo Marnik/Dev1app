@@ -8,7 +8,7 @@
     <string name="addS">Voeg gegevens toe</string>
     <string name="photos">Bekijk foto\'s</string>
     <string name="statistics">Bekijk statistieken</string>
-    <string name="insertW">Voer uw huidige gewicht in:</string>
+    <string name="insertW">Voer uw huidige gewicht in (in KG):</string>
     <string name="takePhoto">Neem een nieuwe foto</string>
     <string name="usePhoto">Gebruik een bestaande foto</string>
     <string name="currentPhoto">Je huidige foto van vandaag:</string>
@@ -17,5 +17,7 @@
     <string name="statCurrentWeight">Uw huidige gewicht:</string>
     <string name="totalWeightLoss">Totaal afgevallen:</string>
     <string name="topBar">Menu balk</string>
+    <string name="currentWeight">Uw gewicht van vandaag is:</string>
+    <string name="insertWeight">OK</string>
 
 </resources>
